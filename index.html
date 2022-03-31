@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+
+<title><?></title>
+
+<link rel='stylesheet' href='cb.css'>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+* {
+	font-family: 'Press Start 2P', cursive;
+	color: #20C20E;
+    outline: none;
+    border-width:0px;
+	border:none;
+	outline:none;
+	font-size: 105%;
+}
+@media (orientation: portrait) {
+  * {
+    
+  }
+}
+
+</style> 
+
+</head>
+
+<body style="background-color: black;">
+	<div id="container">
+		<div id="chatResults">
+		</div>
+
+		<input type="text" id="text" name="text" size="100" onblur="this.focus()" autofocus style=" background-color: transparent;position: fixed; bottom: 0px; left: 0px; width: 95%;">
+	</div>
+
+	<script type="text/javascript">
+		document.onmousedown = (e) => {
+			e.preventDefault();
+		}
+	</script>
+	<script type="text/javascript" src="jquery-1.6.1.min.js"></script>
+	<script type="text/javascript" src="cb.js"></script>
+
+</body>
+</html>

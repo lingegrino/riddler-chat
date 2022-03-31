@@ -1,0 +1,11 @@
+#container {
+	position: relative;
+	height: 100%;
+	width: 95vw;
+}
+
+#chatResults {
+	height: 90% !important;
+}
+
+
