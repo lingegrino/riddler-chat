@@ -1,5 +1,5 @@
 # riddler-chat
-A little PHP chat inspired by Riddler's chat from The Batman 2022
+A little chat inspired by Riddler's chat from The Batman 2022
 
 Icluding:
 - Hacker colors
