@@ -2,7 +2,7 @@
 ## rataalada.com
 A little chat inspired by Riddler's chat from The Batman 2022
 
-Icluding:
+Including:
 - Hacker colors
 - Anonimity (not even a timestamp:()
 - /delete command to wipe the log
